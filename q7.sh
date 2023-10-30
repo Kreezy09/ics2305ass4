@@ -6,7 +6,6 @@ sender_email="keithkareithi09@gmail.com"
 # Read names and email addresses from students.txt file
 while IFS=, read -r name email
 do
-    # Compose the email content with personalized message
     subject="Invitation to 3rd Year Projects Webinar"
     message="Dear $name,\n\nInviting the you as our computing student to our 3rd Year
                 Projects on innovation incubation scheduled Monday 23rd
